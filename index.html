@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <picture class="card__picture">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="image Equilibrium"
+            class="card__img"
+          />
+        </picture>
+        <h2 class="card__heading">Equilibrium #3429</h2>
+        <p class="card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card__worth">
+          <div class="card__price">
+            <img src="./images/icon-ethereum.svg" alt="icon ethereum" />
+            <span>0.041 ETH</span>
+          </div>
+          <div class="card__registered">
+            <img src="./images/icon-clock.svg" alt="icon clock" />
+            <span>3 days left</span>
+          </div>
+        </div>
+        <div class="card__author author-card">
+          <img
+            class="author-card__avatar"
+            src="./images/image-avatar.png"
+            alt="icon avatar"
+          />
+          <h4 class="author-card__heading">
+            Creation of <span class="author-card__name">Jules Wyvern</span>
+          </h4>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
